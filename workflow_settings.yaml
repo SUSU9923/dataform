@@ -2,4 +2,4 @@ defaultProject: bq-test-202003
 defaultLocation: europe-west8
 defaultDataset: dataform
 defaultAssertionDataset: dataform_assertions
-dataformCoreVersion: 3.0.0
+
