@@ -1,0 +1,14 @@
+config {
+  type: "table",
+  name: "test_da_gcs_prz",
+  schema: "suhan_testz"
+}
+
+SELECT
+  ID,
+  CAT,
+  CURRENT_TIMESTAMP() AS processed_at
+FROM
+  `bq-test-202003.suhan_testz.test_da_gcs_raw`
+WHERE
+  ID IS NOT NULL
